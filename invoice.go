@@ -278,7 +278,7 @@ type Invoice struct {
 	SubscriptionProrationDate    int64                    `json:"subscription_proration_date"`
 	Subtotal                     int64                    `json:"subtotal"`
 	Tax                          int64                    `json:"tax"`
-	ThreasholdReason             *InvoiceThresholdReason  `json:"threshold_reason"`
+	ThresholdReason              *InvoiceThresholdReason  `json:"threshold_reason"`
 	Total                        int64                    `json:"total"`
 	TotalDiscountAmounts         []*InvoiceDiscountAmount `json:"total_discount_amounts"`
 	TotalTaxAmounts              []*InvoiceTaxAmount      `json:"total_tax_amounts"`
